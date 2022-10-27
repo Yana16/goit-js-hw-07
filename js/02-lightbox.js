@@ -32,6 +32,8 @@ function onGalleryRefClick(event) {
         return;
 
     }
+};
+
     // console.log(isGalleryRef);
 
     let gallery = new SimpleLightbox('.gallery a', {
@@ -55,4 +57,4 @@ function onGalleryRefClick(event) {
         }
     }
     modalWindow.show();
-}  
+  
